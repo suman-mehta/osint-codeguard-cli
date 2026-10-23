@@ -1,0 +1,22 @@
+{
+  "name": "osint-codeguard-cli",
+  "version": "1.0.0",
+  "description": "High‑impact OSINT & static code vulnerability scanner CLI",
+  "type": "module",
+  "bin": {
+    "osint-codeguard": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "osint",
+    "vulnerability",
+    "scanner",
+    "cli",
+    "nodejs"
+  ]
+}
